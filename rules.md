@@ -1,4 +1,4 @@
-# CBRL - Code of Conduct v 1.0
+# CBRL - Code of Conduct v 1.01
 
 
 
@@ -11,9 +11,11 @@
 ### Section 2. Clean Driving
 - Article 2.1 Official Fia rules
 - Article 2.2 Incident Report
-- Article 2.3 Defend incident
-- Article 2.4 Return to track
+- Article 2.3 Defending incidents
+- Article 2.4 Returning to track
 - Article 2.5 AI driving
+- Article 2.6 Faulty Equipment
+- Article 2.7 Retaliation
 ### Section 3. Rules of Engagement
 - Article 3.1 Significant car length alongside
 - Article 3.2 Defending track positions
@@ -38,6 +40,8 @@
 - Article 6.2 Potential reasons to call a red flag
 ### Section 7. Readying up/Jump Start Rule
 - Article 7.1 Readying up
+### Section 8 FIA decisions
+- Article 8.1 FIA Decisions
 ### Section 9. Giving back a place
 - Article 9.1 On-screen Warning
 - Article 9.2 Unfair Advantage and incidents
@@ -53,7 +57,7 @@
 ### Section 11. In-game Penalty
 - Article 11.1 Additional penalty
 - Article 11.2 Unjust Penalty
-### Section 12. Point and License System
+### Section 12. Point System
 - Article 12.1 Race points
 
 
@@ -79,7 +83,7 @@ In this section rules of a general nature will be mentioned.
 
 | **Lobby Options** | *Setting*  | **Assist Restrictions** | *Setting*  | **Weather and Time of Day** | *Setting*  |
 |---|---|---|---|---|---|
-|  **Maximum Players** |  20  |  **Steering Assist** |  On  |  **Quick Weather** |  Dynamic  |
+|  **Maximum Players** |  20  |  **Steering Assist** |  Off  |  **Quick Weather** |  Dynamic  |
 | **Session Privacy**  |  Invite Only  | **Braking Assist**  |  Off  | **Session Start Time**  |  Realistic  |
 | **Lobby Tag**  |  Not mandatory  | **Anti-Lock Brakes**  |  On  | **Forecast Accuracy**  |  Approximate  |
 | **Car Category**  |  F1 2023  | **Traction Control**  |  Full  |    |    |
@@ -106,9 +110,9 @@ In this section rules of a general nature will be mentioned.
 |    |    | **Unsafe Pit Release**  |  On  |
 
 ### Article 1.3 - Attendance in League Races
-1. By registering for a full seat in the league races, you commit to be available during all races in the season for the duration
+1. By registering for a full seat in the league races, you commit to be available during the majority of races for the duration
 of the competition season. If you are unable to attend, mark the attendance as unable to attend on the check in bot. We can fill your seat with a reserve driver for the week.
-2. By registering for a reserve seat in the league races, you can without obligation sign up for an empty seat. Once registered, you commit to attending. Vacancies will be posted in the reserve driver channel about 24 hours before the race start. 
+2. By registering for a reserve seat in the league races, you can without obligation sign up for an empty seat. Once registered, you commit to attending. Your seat will be announced on raceday. 
 3. Points earned will be credited to the reserve driver.
 4. If a driver is inexplicably absent, the driver may lose his seat. A reserve driver can then prioritize a claim to a vacant seat.
 5. If you can't make it to the races anymore, you don't need a reason to leave the competition. Please let us know so we can fill the seat.
@@ -123,7 +127,6 @@ of the competition season. If you are unable to attend, mark the attendance as u
 5. After a final lap, as referred to in article 1.4 under 4, a virtual chequered flag will be thrown. Once the race is over the divison will be pinged and we will go off the results from the final lap.
 
 ## Section 2. Clean Driving
-In this section the rules for clean driving will be mentioned.
 
 ### Article 2.1 Official Fia rules
 1. Basically, the official rules of the FIA apply as clean driving.
@@ -138,16 +141,23 @@ In this section the rules for clean driving will be mentioned.
    a) A report for a 'League Race' must be submitted with evidence and reasoning why you believe this is an incident
    b) Stewards may expect images to be supplied in sufficient quality. All images/recordings should be as close to source quality as possible.
    c) Incidents must be submitted within 48 hours of their occurrence.
+   d) Incidents must follow the format of:
+   Name of driver or drivers at fault:
+   Video Attachment:
+   Broken ruling/Infringement:
+   Reasons for the ticket:
+   If the format is not followed, the ticket will be dismissed.
    d) If the requirements are met, stewards will review and handle the report.
 
-### Article 2.4 Defend incident
+### Article 2.4 Defending incidents
 1.  If there has been an accident that you think someone is claiming was your fault, but you don't think it is, you should record your side in defense too. The more corners the stewards have, the higher the chance for a correct outcome
 2. If images are requested by the stewards from a driver, the driver is obliged to provide them. An exception applies if these images are not available.
 3. If requested images cannot be provided, the driver will be asked to share their PoV.
 4. A driver must meet the question posed in this article within 48 hours.
 
-### Article 2.5 Return to track
-1. Reset to track is in all cases prohibited and will result in 25 second time penalty.
+### Article 2.5 Returning to track
+1. Reset to track is in most cases prohibited and will result in 25 second time penalty.
+ a) The only acceptable case of resetting to track is if the car is beached on a kerb or in gravel.
 2. If you leave the track (all 4 wheels off track) or spin on track, it is your responsibility for a safe return to racing. If facing the opposite direction wait, apply the brakes to stop the car rolling, and look for a gap in traffic to spin the car around. If in a dangerous position on track, try to move to a safer position at the earliest opportunity that is safe for other drivers.
 3. If returning to the track, also wait for a gap in the traffic or an opportunity to join the track from the racing line at a sensible speed.
 4. If you are a driver on track coming across a driver attempting to rejoin at a comparable speed, try to
@@ -158,6 +168,30 @@ give them space for the rejoin if it is safe to do so.
 1. Using AI off the grid is prohibited and will result in 5 second time penalty.
 2. If you need to retire from the race, please retire in the pitlane.
 3. You are still liable for incidents your AI causes and stewards will judge them as if you are in control.
+
+### Article 2.7 Faulty Equipment
+1. Unfortuantely the F1 game series usually has bugs with hardware being used either controller, wheel or Keyboard. You are required to pause the game immediately if any of the following occur:
+ a) Pedals of wheel disconnect.
+ b) Wheel turns off mid race.
+ c) any other severe hardware issue
+ If you are unable to solve the hardware issue you are required to retire from the session immediately.
+2. For minor hardware issues such as:
+ a) Stick Drift (depending on the severity)
+ b) Gears unable to shift on certain wheels
+ c) Loss of FFB
+ d) Loss of sound or other game bug
+ You are required to let any car behind through safely whilst you try to solve your issue, without battling them.
+3. If you are experiencing hardware issues and are invovled in an incident, the stewarding team will not accept this as a defence for the incident, due to the guidelines above.
+
+
+### Article 2.8 Retaliation
+1. Any perceived retaliation due to a previous incident on track will be giving a 10 second stop-go penalty added on to the race classification.
+ a) This equates to around 30 seconds per track.
+ b) If the driver in question does not finish the race, they will recieve it at the next race attended.
+ c) If the driver does this a second time, they will have all of their championship points removed and given a season ban.
+ d) If it somehow occurs more than twice, the driver will be blacklisted from the league.
+2. F1 is a non contact sport, any incidents must be dealt by the stewards and only the stewards.
+
 
 ## Section 3. Rules of Engagement
 
@@ -276,6 +310,22 @@ give them space for the rejoin if it is safe to do so.
 3. Readying up early not only wastes your time but the other drivers and staff that are involved in the race. You will be notified of a 2 minute break before joining the session. Failure to abide by this and not admitting to readying up early will result in a qualy ban for the next race.
 4. If a driver breaks this rule more than once, they will be banned for the rest of the season.
 
+## Section 8 FIA Decisions
+
+### Article 8.1 FIA Decisions
+1. Stewarding decisions must remain unbiased at all times, regardless of who submits the tickets.
+ a) Stewards may not argue on any incidents that they are involved with, or stand to gain from potential penalties
+ b) If they are involved in an incident, stewards are allowed to post their defence, meaning that they will go through the same procedure as everyone else
+ c) Any stewards with biased opinions will have their input on the ticket invalidated.
+2. Previous decisions may not be used against a persons character.
+ a) They can be brought up to reference previous penalties of a similar incident or in any other decision related outcome.
+3. If you are unhappy with any of the decisions made, you can:
+ a) Appeal the incident with a relevant reason or with more evidence, you have 24 hours to do this.
+  i) Incorrectly formatted appeals will be dismissed
+  ii) Invalid reasons will be dismissed, we will not have our time wasted
+ b) Ask for clarification, do so by making a ticket, do not argue in irrevelant places in the server
+ c) Grow up. Sometimes things will not go your way, which is the nature of racing, as chaotic as it can be sometimes.
+
 
 ## Section 9. Giving back a place
 
@@ -309,7 +359,7 @@ give them space for the rejoin if it is safe to do so.
 1. If you are not on a hot lap during qualifying for the race it is your responsibility to clear the racing line for cars on a hot lap. 
 2. If you are exiting the pit lane and trying to get out of the way of other drivers on a hot lap, be mindful that going too slowly will block the pit-lane and cause a DSQ for you and other drivers exiting the pit-lane behind you.
 3. Blocking the pit-lane can be penalized if it affects other drivers and is within your control to not block it.
-4. Causing a block on the first two runs of a short qualy session will result in a 5 second penaly.
+4. Causing a block on the first two runs of a short qualy session will result in a 5 second penalty.
 5. Causing a block on the last run of qualyfying will result in a qualy ban for the next session. 
 
 ### Article 10.3 Track Limits
